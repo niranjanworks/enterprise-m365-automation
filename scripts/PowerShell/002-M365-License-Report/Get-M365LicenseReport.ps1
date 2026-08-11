@@ -6,7 +6,7 @@ Reports Microsoft 365 license information.
 Niranjan Babu
 
 .VERSION
-1.3.0
+1.4.0
 #>
 
 param(
@@ -31,10 +31,16 @@ try {
 
     $Report = $Licenses | Select-Object `
         SkuPartNumber,
+        SkuId,
+        AccountName,
+        CapabilityStatus,
         @{Name="TotalLicenses"; Expression={$_.PrepaidUnits.Enabled}},
         @{Name="UsedLicenses"; Expression={$_.ConsumedUnits}},
         @{Name="AvailableLicenses"; Expression={
             $_.PrepaidUnits.Enabled - $_.ConsumedUnits
+        }},
+        @{Name="SubscriptionId"; Expression={
+            $_.SubscriptionIds -join "; "
         }}
 
     $Report | Export-Csv -Path $OutputPath -NoTypeInformation -ErrorAction Stop
