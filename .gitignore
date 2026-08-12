@@ -6,3 +6,6 @@ Entra-SignIn-Audit.csv
 Entra-Group-Audit.csv
 Entra-Group-Members.csv
 Entra-Group-Owners.csv
+Entra-Privileged-Role-Active.csv
+Entra-Privileged-Role-Eligible.csv
+Entra-Privileged-Role-Summary.csv
