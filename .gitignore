@@ -3,3 +3,6 @@ M365-License-Report.csv
 M365-User-License-Audit.csv
 Entra-User-Audit.csv
 Entra-SignIn-Audit.csv
+Entra-Group-Audit.csv
+Entra-Group-Members.csv
+Entra-Group-Owners.csv
