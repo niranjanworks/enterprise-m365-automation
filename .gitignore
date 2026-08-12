@@ -12,3 +12,5 @@ Entra-Privileged-Role-Summary.csv
 Entra-Application-Registration-Audit.csv
 Entra-Enterprise-Application-Audit.csv
 Entra-Application-Credential-Audit.csv
+Entra-Conditional-Access-Policy-Audit.csv
+Entra-Conditional-Access-Policy-Summary.csv
