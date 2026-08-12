@@ -9,3 +9,6 @@ Entra-Group-Owners.csv
 Entra-Privileged-Role-Active.csv
 Entra-Privileged-Role-Eligible.csv
 Entra-Privileged-Role-Summary.csv
+Entra-Application-Registration-Audit.csv
+Entra-Enterprise-Application-Audit.csv
+Entra-Application-Credential-Audit.csv
