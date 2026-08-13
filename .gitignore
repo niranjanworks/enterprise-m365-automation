@@ -14,3 +14,6 @@ Entra-Enterprise-Application-Audit.csv
 Entra-Application-Credential-Audit.csv
 Entra-Conditional-Access-Policy-Audit.csv
 Entra-Conditional-Access-Policy-Summary.csv
+Entra-MFA-Authentication-Method-Audit.csv
+Entra-Authentication-Method-Detail.csv
+Entra-MFA-Authentication-Method-Summary.csv

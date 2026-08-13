@@ -32,6 +32,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 | [007 — Privileged role audit](scripts/PowerShell/007-EntraID-Privileged-Role-Audit/README.md) | Who can administer the tenant now or through PIM eligibility? | Active, eligible, and summary role reports |
 | [008 — Application audit](scripts/PowerShell/008-EntraID-Application-Audit/README.md) | Which apps exist, what access/credentials do they have, and what needs review? | Registration, enterprise-app, and credential reports |
 | [009 — Conditional Access audit](scripts/PowerShell/009-EntraID-Conditional-Access-Audit/README.md) | Which sign-in protection policies exist, what do they target, and are they enforced? | Policy and summary reports |
+| [010 — MFA methods audit](scripts/PowerShell/010-EntraID-MFA-Authentication-Methods-Audit/README.md) | Which authentication methods are registered, and which accounts need MFA-registration review? | User, method-detail, and summary reports |
 
 ## Operating model
 
